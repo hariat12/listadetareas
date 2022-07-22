@@ -1,0 +1,13 @@
+document.addEventListener("DOMContentLoaded", ()=>{
+    document.querySelector("#nuevastareas").onsubmit = ()=>{
+        //CREAR UN ITEM EN LA LISTA 
+    const li = document.createElement("li"); 
+    li.innerHTML = document.querySelector("#tarea").value; 
+        //AÑADIR NUEVO ITEM A LA LISTA 
+    document.querySelector("#tareas").append(li);
+        //LIMPIAR EL INPUT 
+    document.querySelector("#tarea").value = ""; 
+        //DETENER EL ENVIO DEL FORMULARIO
+    return false;
+    }
+})
