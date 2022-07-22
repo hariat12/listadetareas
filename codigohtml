@@ -1,0 +1,23 @@
+<!doctype html> 
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Dev. Ignacio Arias">
+        <meta name="keywords" content="#,#,#">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script type="text/javascript" src="main.js"></script>
+        <title>Titulo</title>
+    </head>
+    <body>
+    <h1> Tareas </h1>
+    <ul id="tareas">
+        
+    </ul> 
+    <form id="nuevastareas">
+        <input id="tarea" autocomplete="off" autofocus placeholder="nueva tarea" type="text">
+        <input type="submit">
+    </form>
+    </body>
+</html>
